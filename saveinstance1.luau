@@ -1,10 +1,13 @@
 --!native
 --!optimize 2
 --!divine-intellect
--- https://discord.gg/wx4ThpAsmw
+
+--[[ 
+   https://discord.gg/wx4ThpAsmw
+]]
 
 local function string_find(s, pattern)
-	return string.find(s, pattern, nil, true)
+    return string.find(s, pattern, nil, true)
 end
 
 local function ArrayToDict(t, hydridMode, valueOverride, typeStrict)
